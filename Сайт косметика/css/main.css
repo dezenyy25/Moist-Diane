@@ -2,4 +2,32 @@ h1{
 	font-size: 30px;
     text-align: center;
 	font-family: 'PT Sans', sans-serif;
+	color: rgb(216, 137, 224);
+}
+
+
+p{ 
+text-align: center;
+ }
+img{
+	width: 90%;
+	margin: 10px auto;
+}
+
+.container {
+	padding: 10px;
+margin: auto;
+}
+
+.item {
+	padding: 40px;
+	width: 35%;
+	height: 300px;
+	position: absolute;
+	font-size: 2em;
+	font-family: 'PT Sans', sans-serif;
+	text-align: justify;
+	color: white;
+    display: inline;
+    margin: 10px 0px 0px 53%;
 }
