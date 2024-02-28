@@ -11,26 +11,24 @@ h1{
 p{ 
 text-align: center;
  }
-img{
+.img1{
 	width: 90%;
 	margin: 10px auto;
 }
 
 .container {
 	padding: 10px;
-    margin: auto;
 }
 
 .item {
 	padding: 40px;
 	width: 35%;
-	height: 300px;
+	height: 35%;
 	position: absolute;
 	font-size: 2em;
 	text-align: justify;
 	color: white;
-    display: inline-block;
-    margin: 10px 0px 0px 53%;
+    margin: 40px 0px 0px 53%;
     box-sizing: content-box;
 }
 .button {
@@ -42,8 +40,53 @@ img{
 	background: white;
 	color: rgb(216, 137, 224);
 	text-align: center;
-    display: inline-block;
     box-sizing: content-box;
-    margin: 450px 0px 0px 63%;
+    margin: 30% 0px 0px 63%;
 }
+.button1 {
+	padding: 20px;
+	width: 20%;
+	height: 40px;
+	font-size: 1em;
+	position: absolute;
+	background: rgb(216, 137, 224);
+	color: white;
+	box-sizing: content-box;
+	text-align: center;
+	margin: 3% 5% 0 2%;
+}
+
+.div1{
+	background: rgb(137, 198, 224);
+	color: white;
+	font-size: 2em;
+	padding: 30px;
+	width: 85%;
+	
+	text-align: justify;
+	margin: 0 5%;
+
+}
+
+.div2{
+	background: white;
+	padding: 30px;
+	width: 85%;
+	margin: 0 5%;
+}
+.item1:first-child{
+	background: white;
+	color: black;
+	float: left;
+	padding: 10px;
+	width: 33%;
+	font-size: 2em;
+}
+
+.item2:last-child{
+float:right;
+}
+
+.img2{
+width: 65%;
 }
