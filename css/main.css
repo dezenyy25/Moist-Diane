@@ -1,5 +1,5 @@
 h1{
-	font-size: 30px;
+	font-size: 3em;
     text-align: center;
 	font-family: 'PT Sans', sans-serif;
 	color: rgb(216, 137, 224);
@@ -16,8 +16,24 @@ text-align: center;
 	margin: 10px auto;
 }
 
+span {
+padding: 2px;
+width: 10%;
+text-align: center;
+background: rgb(216, 137, 224);
+color: white;
+font-size: 1.5em;
+}
+
+.nav {
+width: 100%;
+display: flex;
+justify-content: space-evenly;
+}
+
 .container {
 	padding: 10px;
+	margin: 40px 0;
 }
 
 .item {
