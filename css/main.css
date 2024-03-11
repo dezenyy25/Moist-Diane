@@ -1,22 +1,24 @@
 h1{
-	font-size: 3em;
-    text-align: center;
-	font-family: 'PT Sans', sans-serif;
-	color: rgb(216, 137, 224);
+font-size: 3em;
+text-align: center;
+font-family: 'PT Sans', sans-serif;
+color: rgb(216, 137, 224);
 }
-
 *{
-	font-family: 'PT Sans', sans-serif;
+font-family: 'PT Sans', sans-serif;
 }
 p{ 
 text-align: center;
- }
-.img1{
-	width: 90%;
-	margin: 10px auto;
-	display: inline-block;
 }
-
+.img1{
+width: 90%;
+margin: 10px auto;
+display: inline-block;
+}
+.foto1{
+display:flex;
+justify-content: center;
+}
 span {
 padding: 2px;
 width: 10%;
@@ -25,85 +27,73 @@ background: rgb(216, 137, 224);
 color: white;
 font-size: 1.5em;
 }
-
 .nav {
 width: 100%;
 display: flex;
 justify-content: space-evenly;
 }
-
 .container {
-	padding: 10px;
-	margin: 40px 0;
+padding: 10px;
+margin: 40px 0;
 }
-
+.container1{
+padding: 10px;
+margin: 40px 0;
+display: flex;
+flex-direction: row;
+justify-content: center;
+width: 93%;
+height: 30%;
+}
 .item {
-	padding: 40px;
-	width: 35%;
-	height: 35%;
-	position: absolute;
-	font-size: 2em;
-	text-align: justify;
-	color: white;
-    margin: 40px 0px 0px 53%;
-    box-sizing: content-box;
+padding: 40px;
+width: 35%;
+height: 35%;
+position: absolute;
+font-size: 2em;
+text-align: justify;
+color: white;
+margin: 40px 0px 0px 53%;
+box-sizing: content-box;
 }
 .button {
-	padding: 30px;
-	width: 15%;
-	height: 40px;
-	font-size: 2em;
-	position: absolute;
-	background: white;
-	color: rgb(216, 137, 224);
-	text-align: center;
-    box-sizing: content-box;
-    margin: 30% 0px 0px 63%;
+padding: 30px;
+width: 15%;
+height: 40px;
+font-size: 2em;
+position: absolute;
+background: white;
+color: rgb(216, 137, 224);
+text-align: center;
+box-sizing: content-box;
+margin: 30% 0px 0px 63%;
 }
 .button1 {
-	padding: 20px;
-	width: 20%;
-	height: 40px;
-	font-size: 1em;
-	position: absolute;
-	background: rgb(216, 137, 224);
-	color: white;
-	box-sizing: content-box;
-	text-align: center;
-	margin: 3% 5% 0 2%;
+padding: 20px;
+width: 15%;
+height: 40px;
+font-size: 1em;
+position: absolute;
+background: rgb(216, 137, 224);
+color: white;
+box-sizing: content-box;
+text-align: center;
+margin: 3% 5% 0 2%;
 }
-
 .div1{
-	background: rgb(137, 198, 224);
-	color: white;
-	font-size: 2em;
-	padding: 30px;
-	width: 85%;
-	
-	text-align: justify;
-	margin: 0 5%;
-
+background: rgb(137, 198, 224);
+color: white;
+font-size: 2em;
+padding: 30px;
+width: 85%;
+text-align: justify;
+margin: 0 5%;
 }
-
 .div2{
-	background: white;
-	padding: 30px;
-	width: 85%;
-	margin: 0 5%;
-}
-.item1:first-child{
-	background: white;
-	color: black;
-	float: left;
-	padding: 10px;
-	width: 33%;
-	font-size: 2em;
-}
-
-.item2:last-child{
-float:right;
-}
-
-.img2{
-width: 65%;
+background: rgb(137, 198, 224);
+margin: 0 5%;
+color: white;
+font-size: 1.8em;
+text-align: justify;
+padding: 20px;
 }
