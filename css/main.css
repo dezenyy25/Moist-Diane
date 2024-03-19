@@ -29,6 +29,8 @@ width: 90%;
 .text1{
 	font-size: 2em;
 	padding: 3%;
+	color: rgb(216, 137, 224);
+	font-weight: 600;
 }
 .foto2{
 	display: flex;
@@ -42,12 +44,22 @@ background: rgb(216, 137, 224);
 color: white;
 font-size: 1.5em;
 }
-.nav {
+
+nav {
 width: 100%;
 display: flex;
 justify-content: space-evenly;
 }
-.container {
+header{
+	padding: 2%;
+}
+footer{
+	padding: 2%;
+	width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+section {
 padding: 10px;
 margin: 40px 0;
 }
@@ -88,9 +100,14 @@ font-size: 1.5em;
 position: absolute;
 background: white;
 color: rgb(216, 137, 224);
-text-align: center;
 box-sizing: content-box;
+padding: 1%;
+}
 
+.buttonn{
+	padding: 2%;
+	display: flex;
+	justify-content: center;
 }
 .button1 {
 padding: 20px;
