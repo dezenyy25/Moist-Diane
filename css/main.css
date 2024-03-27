@@ -64,8 +64,6 @@ padding: 10px;
 margin: 40px 0;
 }
 .container1{
-padding: 10px;
-margin: 40px 0;
 display: flex;
 flex-direction: row;
 justify-content: center;
@@ -95,7 +93,7 @@ padding: 7%;
 
 .button {
 width: 15%;
-height: 50px;
+height: 7%;
 font-size: 1.5em;
 position: absolute;
 background: white;
@@ -119,10 +117,14 @@ background: rgb(216, 137, 224);
 color: white;
 box-sizing: content-box;
 text-align: center;
-margin: 3% 5% 0 2%;
 }
 .but{
-	padding: 30px;
+	padding: 2%;
+	display: flex;
+	justify-content: center;
+}
+.but1{
+	padding: 2%;
 }
 .div1{
 background: rgb(137, 198, 224);
@@ -130,7 +132,7 @@ color: white;
 font-size: 2em;
 padding: 30px;
 width: 86%;
-text-align: justify;
+text-align: justify; 
 margin: 0 5%;
 }
 .div2{
@@ -140,4 +142,19 @@ color: white;
 font-size: 1.8em;
 text-align: justify;
 padding: 20px;
+}
+@media (max-width: 992px) {
+	.container2{
+		flex-direction: column;
+	}
+	.button{
+		width: auto;
+	}
+	.container1{
+		flex-direction: column;
+	
+	}
+	.button1{
+		width: auto;
+	}
 }
