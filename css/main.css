@@ -93,13 +93,13 @@ padding: 7%;
 
 .button {
 width: 15%;
-height: 7%;
+height: auto;
 font-size: 1.5em;
 position: absolute;
 background: white;
 color: rgb(216, 137, 224);
 box-sizing: content-box;
-padding: 1%;
+
 }
 
 .buttonn{
@@ -146,9 +146,11 @@ padding: 20px;
 @media (max-width: 992px) {
 	.container2{
 		flex-direction: column;
+		height: auto;
 	}
 	.button{
 		width: auto;
+		font-size: 1em;
 	}
 	.container1{
 		flex-direction: column;
@@ -157,4 +159,37 @@ padding: 20px;
 	.button1{
 		width: auto;
 	}
+	.item{
+		margin: auto;
+	}
+	.foto2{
+		margin: 5% 0;
+		justify-content: center;
+	}
+}
+@media (max-width: 1200px) {
+	.container2{
+		flex-direction: column;
+		height: auto;
+	}
+	.buttonn{
+		width: auto;
+		font-size: 1.2em;
+	}
+	.container1{
+		flex-direction: column;
+	}
+	.button1{
+		width: auto;
+	}
+	.foto2{
+		margin: 5% 0;
+		justify-content: center;
+	}
+}
+@media (max-width: 1440px) {
+	.buttonn{
+		width: auto;
+		font-size: 1em;
+	}	
 }
